@@ -38,17 +38,12 @@ var generateNumbers = function () {
     secondNumber.innerHTML = number2;
     operationSign.innerHTML= "+"
     randomNumbers.push(number1);
-    randomNumbers.push(number2);
-
-    
-
+    randomNumbers.push(number2);   
 }
 
 // function to checkAnswer
 var checkAnswer = input.addEventListener("keyup", function () {
     var value = Number(this.value);
-
-
 
     if (value === randomNumbers[0] + randomNumbers[1]) {
         randomNumbers = [];
@@ -65,7 +60,6 @@ function showTimeLeft() {
 
     timeLeft.innerHTML = i + " seconds"
     var value = Number(input.value);
-
     i--;
 
     if (i < 0) {
