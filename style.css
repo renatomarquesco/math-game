@@ -21,6 +21,7 @@ h1{
 .first-row{
     margin-top:70px;
     border-radius:10px;
+    visibility: hidden;
 }
 .numbers{
     font-size: 45px;
@@ -93,6 +94,19 @@ h1{
     margin-right: 40px;
     margin-top:-15px;
 }
+
+@media(max-width:768px){
+  .time-is-up{
+    font-size: 43px;
+    margin-top: 20px;
+}
+.time-is-up img{
+  margin-right: 20px;
+  margin-top:-15px;
+}
+
+}
+
 #label{
     font-size:18px;
 }
